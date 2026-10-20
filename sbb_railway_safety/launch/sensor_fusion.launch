@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="sensor_fusion_package" type="sensor_fusion_node.py" name="sensor_fusion" output="screen">
+        <param name="camera_topic" value="/gt_box/alphasense_driver_node/cam1/color/image/compressed"/>
+        <param name="lidar_topic" value="/gt_box/hesai/points"/>
+        <param name="output_image_topic" value="/processed_camera_image"/>
+    </node>
+</launch>
