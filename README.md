@@ -8,6 +8,10 @@ the workers with a camera and LiDAR, estimates where they are, keeps repositioni
 zone to keep them in view, and drives there on its own. The system was tested on data recorded at SBB's
 Löwenberg test site and deployed on the real robot.
 
+![ANYmal standing in the safe zone next to a railway track, watching two workers and a toolbox near the danger zone](media/concept.png)
+
+*Concept: ANYmal monitors the workers from the safe zone (green). The danger zone next to the track is red.*
+
 ## Where the code is
 
 | File | Description |
